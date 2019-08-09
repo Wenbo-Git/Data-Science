@@ -7,6 +7,8 @@ from sklearn.externals import joblib
 from bokeh.embed import components
 from bokeh.plotting import figure
 from bokeh.models import ColumnDataSource, LabelSet, ranges
+import nltk
+nltk.download("stopwords")
 from nltk.corpus import stopwords
 import inference
 import math
