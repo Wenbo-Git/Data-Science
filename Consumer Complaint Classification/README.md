@@ -7,11 +7,6 @@ issue etc. The dataset used to train the models is available at https://www.cons
 
 The jupyter notebook "Data Exploration and Visualizations" is about exploratory data analysis, geometric 
 visualization of the consumer complaints on mortgages, and heat map/correlations among various features 
-in consumer complaints.
+in consumer complaints. A logistic regression model (83% recall) and an LSTM-based RNN model (80% recall) were trained.
 
-A logistic regression model and an LSTM-based RNN model were trained. Both models performed relatively well  
-on the test set, where the LSTM-based RNN has slightly higher precision and recall (84%) than the logistic 
-regression (83%). 
-
-A working interactive website of this application is live at: http://complaint-classification.herokuapp.com .
-The "Web App" folder contains the Python and Flask implementation details of the interactive website.
+A working interactive website of this application is live at: http://complaint-classification.herokuapp.com . The "Web App" folder contains the Python Flask implementation details of the interactive website.
